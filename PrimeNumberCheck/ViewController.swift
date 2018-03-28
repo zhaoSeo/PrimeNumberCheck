@@ -47,7 +47,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
     }
     @IBAction func ResetTextview(_ sender: UIButton) {
         txtInputNumber.text = ""
-        Answer.text = "Answer"
+        Answer.text = "Answer :"
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
