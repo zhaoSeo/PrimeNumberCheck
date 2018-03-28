@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FECE72BE206B6DB20021FB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE72BD206B6DB10021FB06 /* AppDelegate.swift */; };
+		FECE72C0206B6DB20021FB06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE72BF206B6DB20021FB06 /* ViewController.swift */; };
+		FECE72C3206B6DB20021FB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECE72C1206B6DB20021FB06 /* Main.storyboard */; };
+		FECE72C5206B6DB20021FB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECE72C4206B6DB20021FB06 /* Assets.xcassets */; };
+		FECE72C8206B6DB20021FB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECE72C6206B6DB20021FB06 /* LaunchScreen.storyboard */; };
+		FECE72D3206B6DB20021FB06 /* PrimeNumberCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE72D2206B6DB20021FB06 /* PrimeNumberCheckTests.swift */; };
+		FECE72DE206B6DB20021FB06 /* PrimeNumberCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE72DD206B6DB20021FB06 /* PrimeNumberCheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FECE72CF206B6DB20021FB06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FECE72B2206B6DB10021FB06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FECE72B9206B6DB10021FB06;
+			remoteInfo = PrimeNumberCheck;
+		};
+		FECE72DA206B6DB20021FB06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FECE72B2206B6DB10021FB06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FECE72B9206B6DB10021FB06;
+			remoteInfo = PrimeNumberCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FECE72BA206B6DB10021FB06 /* PrimeNumberCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeNumberCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECE72BD206B6DB10021FB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FECE72BF206B6DB20021FB06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FECE72C2206B6DB20021FB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FECE72C4206B6DB20021FB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FECE72C7206B6DB20021FB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FECE72C9206B6DB20021FB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECE72CE206B6DB20021FB06 /* PrimeNumberCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeNumberCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECE72D2206B6DB20021FB06 /* PrimeNumberCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberCheckTests.swift; sourceTree = "<group>"; };
+		FECE72D4206B6DB20021FB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECE72D9206B6DB20021FB06 /* PrimeNumberCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeNumberCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECE72DD206B6DB20021FB06 /* PrimeNumberCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberCheckUITests.swift; sourceTree = "<group>"; };
+		FECE72DF206B6DB20021FB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FECE72B7206B6DB10021FB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECE72CB206B6DB20021FB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECE72D6206B6DB20021FB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FECE72B1206B6DB10021FB06 = {
+			isa = PBXGroup;
+			children = (
+				FECE72BC206B6DB10021FB06 /* PrimeNumberCheck */,
+				FECE72D1206B6DB20021FB06 /* PrimeNumberCheckTests */,
+				FECE72DC206B6DB20021FB06 /* PrimeNumberCheckUITests */,
+				FECE72BB206B6DB10021FB06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FECE72BB206B6DB10021FB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FECE72BA206B6DB10021FB06 /* PrimeNumberCheck.app */,
+				FECE72CE206B6DB20021FB06 /* PrimeNumberCheckTests.xctest */,
+				FECE72D9206B6DB20021FB06 /* PrimeNumberCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FECE72BC206B6DB10021FB06 /* PrimeNumberCheck */ = {
+			isa = PBXGroup;
+			children = (
+				FECE72BD206B6DB10021FB06 /* AppDelegate.swift */,
+				FECE72BF206B6DB20021FB06 /* ViewController.swift */,
+				FECE72C1206B6DB20021FB06 /* Main.storyboard */,
+				FECE72C4206B6DB20021FB06 /* Assets.xcassets */,
+				FECE72C6206B6DB20021FB06 /* LaunchScreen.storyboard */,
+				FECE72C9206B6DB20021FB06 /* Info.plist */,
+			);
+			path = PrimeNumberCheck;
+			sourceTree = "<group>";
+		};
+		FECE72D1206B6DB20021FB06 /* PrimeNumberCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				FECE72D2206B6DB20021FB06 /* PrimeNumberCheckTests.swift */,
+				FECE72D4206B6DB20021FB06 /* Info.plist */,
+			);
+			path = PrimeNumberCheckTests;
+			sourceTree = "<group>";
+		};
+		FECE72DC206B6DB20021FB06 /* PrimeNumberCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FECE72DD206B6DB20021FB06 /* PrimeNumberCheckUITests.swift */,
+				FECE72DF206B6DB20021FB06 /* Info.plist */,
+			);
+			path = PrimeNumberCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FECE72B9206B6DB10021FB06 /* PrimeNumberCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECE72E2206B6DB20021FB06 /* Build configuration list for PBXNativeTarget "PrimeNumberCheck" */;
+			buildPhases = (
+				FECE72B6206B6DB10021FB06 /* Sources */,
+				FECE72B7206B6DB10021FB06 /* Frameworks */,
+				FECE72B8206B6DB10021FB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeNumberCheck;
+			productName = PrimeNumberCheck;
+			productReference = FECE72BA206B6DB10021FB06 /* PrimeNumberCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FECE72CD206B6DB20021FB06 /* PrimeNumberCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECE72E5206B6DB20021FB06 /* Build configuration list for PBXNativeTarget "PrimeNumberCheckTests" */;
+			buildPhases = (
+				FECE72CA206B6DB20021FB06 /* Sources */,
+				FECE72CB206B6DB20021FB06 /* Frameworks */,
+				FECE72CC206B6DB20021FB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FECE72D0206B6DB20021FB06 /* PBXTargetDependency */,
+			);
+			name = PrimeNumberCheckTests;
+			productName = PrimeNumberCheckTests;
+			productReference = FECE72CE206B6DB20021FB06 /* PrimeNumberCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FECE72D8206B6DB20021FB06 /* PrimeNumberCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECE72E8206B6DB20021FB06 /* Build configuration list for PBXNativeTarget "PrimeNumberCheckUITests" */;
+			buildPhases = (
+				FECE72D5206B6DB20021FB06 /* Sources */,
+				FECE72D6206B6DB20021FB06 /* Frameworks */,
+				FECE72D7206B6DB20021FB06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FECE72DB206B6DB20021FB06 /* PBXTargetDependency */,
+			);
+			name = PrimeNumberCheckUITests;
+			productName = PrimeNumberCheckUITests;
+			productReference = FECE72D9206B6DB20021FB06 /* PrimeNumberCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FECE72B2206B6DB10021FB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sang won Seo";
+				TargetAttributes = {
+					FECE72B9206B6DB10021FB06 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FECE72CD206B6DB20021FB06 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FECE72B9206B6DB10021FB06;
+					};
+					FECE72D8206B6DB20021FB06 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FECE72B9206B6DB10021FB06;
+					};
+				};
+			};
+			buildConfigurationList = FECE72B5206B6DB10021FB06 /* Build configuration list for PBXProject "PrimeNumberCheck" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FECE72B1206B6DB10021FB06;
+			productRefGroup = FECE72BB206B6DB10021FB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FECE72B9206B6DB10021FB06 /* PrimeNumberCheck */,
+				FECE72CD206B6DB20021FB06 /* PrimeNumberCheckTests */,
+				FECE72D8206B6DB20021FB06 /* PrimeNumberCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FECE72B8206B6DB10021FB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECE72C8206B6DB20021FB06 /* LaunchScreen.storyboard in Resources */,
+				FECE72C5206B6DB20021FB06 /* Assets.xcassets in Resources */,
+				FECE72C3206B6DB20021FB06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECE72CC206B6DB20021FB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECE72D7206B6DB20021FB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FECE72B6206B6DB10021FB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECE72C0206B6DB20021FB06 /* ViewController.swift in Sources */,
+				FECE72BE206B6DB20021FB06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECE72CA206B6DB20021FB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECE72D3206B6DB20021FB06 /* PrimeNumberCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FECE72D5206B6DB20021FB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECE72DE206B6DB20021FB06 /* PrimeNumberCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FECE72D0206B6DB20021FB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FECE72B9206B6DB10021FB06 /* PrimeNumberCheck */;
+			targetProxy = FECE72CF206B6DB20021FB06 /* PBXContainerItemProxy */;
+		};
+		FECE72DB206B6DB20021FB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FECE72B9206B6DB10021FB06 /* PrimeNumberCheck */;
+			targetProxy = FECE72DA206B6DB20021FB06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FECE72C1206B6DB20021FB06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FECE72C2206B6DB20021FB06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FECE72C6206B6DB20021FB06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FECE72C7206B6DB20021FB06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FECE72E0206B6DB20021FB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FECE72E1206B6DB20021FB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FECE72E3206B6DB20021FB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BU392JZ299;
+				INFOPLIST_FILE = PrimeNumberCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhao.PrimeNumberCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FECE72E4206B6DB20021FB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BU392JZ299;
+				INFOPLIST_FILE = PrimeNumberCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhao.PrimeNumberCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FECE72E6206B6DB20021FB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BU392JZ299;
+				INFOPLIST_FILE = PrimeNumberCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhao.PrimeNumberCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeNumberCheck.app/PrimeNumberCheck";
+			};
+			name = Debug;
+		};
+		FECE72E7206B6DB20021FB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BU392JZ299;
+				INFOPLIST_FILE = PrimeNumberCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhao.PrimeNumberCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeNumberCheck.app/PrimeNumberCheck";
+			};
+			name = Release;
+		};
+		FECE72E9206B6DB20021FB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BU392JZ299;
+				INFOPLIST_FILE = PrimeNumberCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhao.PrimeNumberCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrimeNumberCheck;
+			};
+			name = Debug;
+		};
+		FECE72EA206B6DB20021FB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BU392JZ299;
+				INFOPLIST_FILE = PrimeNumberCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhao.PrimeNumberCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrimeNumberCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FECE72B5206B6DB10021FB06 /* Build configuration list for PBXProject "PrimeNumberCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECE72E0206B6DB20021FB06 /* Debug */,
+				FECE72E1206B6DB20021FB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECE72E2206B6DB20021FB06 /* Build configuration list for PBXNativeTarget "PrimeNumberCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECE72E3206B6DB20021FB06 /* Debug */,
+				FECE72E4206B6DB20021FB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECE72E5206B6DB20021FB06 /* Build configuration list for PBXNativeTarget "PrimeNumberCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECE72E6206B6DB20021FB06 /* Debug */,
+				FECE72E7206B6DB20021FB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECE72E8206B6DB20021FB06 /* Build configuration list for PBXNativeTarget "PrimeNumberCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECE72E9206B6DB20021FB06 /* Debug */,
+				FECE72EA206B6DB20021FB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FECE72B2206B6DB10021FB06 /* Project object */;
+}
